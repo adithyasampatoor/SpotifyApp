@@ -4,5 +4,5 @@ Search a list of artists, or sign in and see your playlists.
 
 Steps to do:
 
-run "bundle install"
+run "bundle install" and then 
 bundle exec rake db:setup
