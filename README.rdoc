@@ -2,4 +2,7 @@ A practice app using Rspotify and Oauth(in progress)
 
 Search a list of artists, or sign in and see your playlists.
 
-https://warm-river-9741.herokuapp.com/
+Steps to do:
+
+run "bundle install"
+bundle exec rake db:setup
