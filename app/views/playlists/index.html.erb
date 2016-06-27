@@ -1,0 +1,16 @@
+<h1>Artists Info</h1>
+
+
+
+<div class="search_box">
+<%= form_tag search_path, :method => 'get' do %>
+  <p>
+    <%= text_field_tag :search, params[:search] %>
+    <%= submit_tag "Search", :name => nil, class:"btn btn-primary" %>
+  </p>
+<% end %>
+</div>
+
+<%= render partial: "search", locals: {artists: @artists} %>
+
+

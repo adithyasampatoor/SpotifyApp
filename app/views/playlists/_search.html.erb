@@ -1,0 +1,16 @@
+<table class="table">
+	<thead>
+	    <tr>	      
+	      <th>Artist Name</th>
+	      <th>Artist Genres</th>
+	    </tr>
+  	</thead>
+  	<tbody>
+  		<% artists.each do |artist| %>
+	      <tr>  
+	        <td><%= artist.artist_name %> </td>
+	    	<td> <%= artist.artist_genre %> </td>
+	      </tr>	
+	  	<% end %>		
+  	</tbody>
+</table>
